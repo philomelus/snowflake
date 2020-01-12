@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Capacitor
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Capacitor-Polarized
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Diode
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP Diode-Schottky
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP Inductor
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP Inductor-Ferrite
+D Inductor with ferrite core
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED-RGB
+D RGB LED, red/green/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP Potentiometer
+D Potentiometer, US symbol
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP Resister
+D Resistor, US symbol
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP Resister-Trimpot
+D Trim-potentiometer, US symbol
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
+#End Doc Library

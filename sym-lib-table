@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name common)(type Legacy)(uri ${KIPRJMOD}/libs/common.lib)(options "")(descr ""))
+  (lib (name snowflake)(type Legacy)(uri ${KIPRJMOD}/libs/snowflake.lib)(options "")(descr ""))
+)

@@ -1,0 +1,248 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP 08053C104JAZ2A
+D 0.1UF 25V X7R 0805
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP 16SVPF560M
+D 560uF
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP 6SVPC820M
+D 820uF 20% 6.3V
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP AGND
+D Analog ground
+K power-flag
+$ENDCMP
+#
+$CMP ARM-JTAG-SWD-10
+D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
+K Cortex Debug Connector ARM SWD JTAG
+F http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf
+$ENDCMP
+#
+$CMP B540C-13-F
+D 40V 5A
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP C0603C105Z8VACTU
+D 1UF 10V Y5V 0603
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C3216C0G1H683J160AA
+D 68nF 50V C0G
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CGA4J2C0G1H223J125AA
+D 22nF 50V C0G
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CL05C821JB5NNNC
+D 820PF 50V C0G/NP0
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CL21C331JBANNNC
+D 330pF
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CRCW04021K00FKED
+D 1K OHM 1% 1/16W
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP CRCW04021K69FKED
+D 1.69K OHM 1% 1/16W 0402
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP CRCW04021M00FKED
+D 1M
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP CRCW04024K02FKED
+D 4.02k
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP CRCW04024K22FKED
+D 4.22k
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP CRCW040261K9FKED
+D 61.9k
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP CSD13202Q2
+D MOSFET N-CH 12V 22A 6SON
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power ground
+K power-flag ground gnd
+F ~
+$ENDCMP
+#
+$CMP GRM155R61A474KE15D
+D 470nF 10V X5R 0402
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP GRM155R70J104KA01D
+D 100nF
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP IHLP1212BZER2R2M11
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP LP5036
+D 36-Channel 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Driver
+K PWM LED driver I2C
+F http://www.ti.com/lit/ds/symlink/lp5036.pdf
+$ENDCMP
+#
+$CMP M95512
+D SPI EEPROM, 512Kb (64K x 8)
+K SPI EEPROM
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/9d/75/f0/3e/76/00/4c/0b/CD00103810.pdf/files/CD00103810.pdf/jcr:content/translations/en.CD00103810.pdf
+$ENDCMP
+#
+$CMP PGND
+D Digital ground
+K power-flag
+$ENDCMP
+#
+$CMP PRL1632-R015-F-T1
+D 0.015 OHM 1W 1206
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP RASM722PX
+D Conn Power PL 2 POS Solder RA SMD 3 Terminal 1 Port Bulk
+F https://componentsearchengine.com/Datasheets/1/RASM722PX.pdf
+$ENDCMP
+#
+$CMP RC0201FR-0715K4L
+D 15.4K OHM 1% 1/20W 0201
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP SRP1270-8R2M
+D 8.2UH 11A 15.5 MOHM
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP STM32F413CHUx
+D ARM Cortex-M4 MCU, 1536KB flash, 320KB RAM, 100MHz, 1.7-3.6V, 36 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32F4 STM32F413/423
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf
+$ENDCMP
+#
+$CMP STM32F423CHUx
+D ARM Cortex-M4 MCU, 1536KB flash, 320KB RAM, 100MHz, 1.7-3.6V, 36 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32F4 STM32F413/423
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282247.pdf
+$ENDCMP
+#
+$CMP STM32F423MHYx
+D ARM Cortex-M4 MCU, 1536KB flash, 320KB RAM, 100MHz, 1.7-3.6V, 60 GPIO, WLCSP-81
+K ARM Cortex-M4 STM32F4 STM32F413/423
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282247.pdf
+$ENDCMP
+#
+$CMP TPD3S014
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 0.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPD3S044
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 1.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPS62291
+D 2.25MHz 1A Step-Down Converter in 2x2mm SON Package
+$ENDCMP
+#
+$CMP TPS62291DRVR
+D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
+F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
+$ENDCMP
+#
+$CMP TPSM84424
+D 4.5V to 17V Input, 0.6V-10V Output, 4A Power Module in Compact 7.5x7.5mm Footprint
+$ENDCMP
+#
+$CMP TPSM84424MOLR
+D 4.5V to 17V Input, 0.6V-10V Output, 4A Power Module in Compact 7.5x7.5mm Footprint
+F http://www.ti.com/lit/gpn/tpsm84424
+$ENDCMP
+#
+$CMP USB_OTG
+D USB mini/micro connector
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP VIN
+D Power symbol creates a global label with name "VIN"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

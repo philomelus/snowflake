@@ -1,0 +1,392 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 7
+Title "Snowflake (Medium)"
+Date "2019-12-25"
+Rev "1.0"
+Comp "RNS Technology"
+Comment1 "Russell E. Gibson"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L snowflake:TPSM84424 U1
+U 1 1 5E0B2B23
+P 6200 3800
+F 0 "U1" H 6200 4965 50  0000 C CNN
+F 1 "TPSM84424" H 6200 4874 50  0000 C CNN
+F 2 "snowflake:TPSM84624MOLR" H 6200 3700 50  0001 C CNN
+F 3 "" H 6200 3700 50  0001 C CNN
+F 4 "Module DC DC Converter 1 Output 0.6 ~ 10V 4A 4.5V - 17V Input" H 6200 3800 50  0001 C CNN "Description"
+F 5 "TPSM84424MOLR" H 6200 3800 50  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 6200 3800 50  0001 C CNN "OEM"
+	1    6200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Capacitor C1
+U 1 1 5E0B568E
+P 4200 3700
+F 0 "C1" H 4315 3746 50  0000 L CNN
+F 1 "10uF" H 4315 3655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 4238 3550 50  0001 C CNN
+F 3 "~" H 4200 3700 50  0001 C CNN
+F 4 "CER 10UF 50V X5R 1210" H 4200 3700 50  0001 C CNN "Description"
+F 5 "C3225X5R1H106K250AB" H 4200 3700 50  0001 C CNN "MPN"
+F 6 "TDK" H 4200 3700 50  0001 C CNN "OEM"
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Capacitor C2
+U 1 1 5E0B63F0
+P 4700 3700
+F 0 "C2" H 4815 3746 50  0000 L CNN
+F 1 "10uF" H 4815 3655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 4738 3550 50  0001 C CNN
+F 3 "~" H 4700 3700 50  0001 C CNN
+F 4 "CER 10UF 50V X5R 1210" H 4700 3700 50  0001 C CNN "Description"
+F 5 "C3225X5R1H106K250AB" H 4700 3700 50  0001 C CNN "MPN"
+F 6 "TDK" H 4700 3700 50  0001 C CNN "OEM"
+	1    4700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowflake:RASM722PX J1
+U 1 1 5E0B8966
+P 2450 3700
+F 0 "J1" H 3050 3965 50  0000 C CNN
+F 1 "2.1mm Jack" H 3050 3874 50  0000 C CNN
+F 2 "snowflake:RASM722PX" H 2500 3660 50  0001 C CNN
+F 3 "" H 2500 3660 50  0001 C CNN
+F 4 "Conn Power PL 2 POS Solder RA SMD 3 Terminal 1 Port Bulk" H 2450 3700 50  0001 C CNN "Description"
+F 5 "RASM722PX" H 2450 3700 50  0001 C CNN "MPN"
+F 6 "Switchcraft" H 2450 3700 50  0001 C CNN "OEM"
+F 7 "11" H 2450 3700 50  0001 C CNN "Height"
+	1    2450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3000 5550 3000
+Wire Wire Line
+	5550 3000 5550 2900
+Wire Wire Line
+	5550 2900 5600 2900
+Wire Wire Line
+	3800 2900 3800 3700
+Wire Wire Line
+	3800 3700 3650 3700
+Wire Wire Line
+	3800 2900 4200 2900
+Connection ~ 5550 2900
+Wire Wire Line
+	4200 3550 4200 2900
+Connection ~ 4200 2900
+Wire Wire Line
+	4200 2900 4700 2900
+Wire Wire Line
+	4700 3550 4700 2900
+Connection ~ 4700 2900
+Wire Wire Line
+	4700 2900 5550 2900
+Wire Wire Line
+	4700 4450 4700 3850
+Wire Wire Line
+	4200 3850 4200 4450
+Connection ~ 4200 4450
+Wire Wire Line
+	4200 4450 4700 4450
+$Comp
+L snowflake:GND #PWR07
+U 1 1 5E0BB7E5
+P 4200 4850
+F 0 "#PWR07" H 4200 4600 50  0001 C CNN
+F 1 "GND" H 4200 4700 50  0001 C CNN
+F 2 "" H 4200 4850 50  0001 C CNN
+F 3 "~" H 4200 4850 50  0001 C CNN
+	1    4200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4450 4200 4850
+Text GLabel 4200 4550 0    50   Input ~ 0
+GND
+$Comp
+L common:Resister R1
+U 1 1 5E0BD8CC
+P 5200 4700
+F 0 "R1" H 5268 4746 50  0000 L CNN
+F 1 "40.2k" H 5268 4655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5240 4690 50  0001 C CNN
+F 3 "~" H 5200 4700 50  0001 C CNN
+F 4 "SMD 40.2K OHM 1% 1/16W 0402" H 5200 4700 50  0001 C CNN "Description"
+F 5 "CRCW040240K2FKEDC" H 5200 4700 50  0001 C CNN "MPN"
+F 6 "Vishay-Dale" H 5200 4700 50  0001 C CNN "OEM"
+	1    5200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Resister R2
+U 1 1 5E0BEB4F
+P 7000 4700
+F 0 "R2" H 7068 4746 50  0000 L CNN
+F 1 "4.42k" H 7068 4655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 7040 4690 50  0001 C CNN
+F 3 "~" H 7000 4700 50  0001 C CNN
+F 4 "SMD 4.42K OHM 1% 1/16W 0402" H 7000 4700 50  0001 C CNN "Description"
+F 5 "CRCW04024K42FKED" H 7000 4700 50  0001 C CNN "MPN"
+F 6 "Vishay-Dale" H 7000 4700 50  0001 C CNN "OEM"
+	1    7000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Resister R4
+U 1 1 5E0C03B6
+P 7850 4200
+F 0 "R4" H 7918 4246 50  0000 L CNN
+F 1 "1.37k" H 7918 4155 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 7890 4190 50  0001 C CNN
+F 3 "~" H 7850 4200 50  0001 C CNN
+F 4 "SMD 1.37K OHM 1% 1/16W 0402" H 7850 4200 50  0001 C CNN "Description"
+F 5 "CRCW04021K37FKED" H 7850 4200 50  0001 C CNN "MPN"
+F 6 "Vishay-Dale" H 7850 4200 50  0001 C CNN "OEM"
+	1    7850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Resister R3
+U 1 1 5E0C1619
+P 7850 3350
+F 0 "R3" H 7918 3396 50  0000 L CNN
+F 1 "10k" H 7918 3305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" V 7890 3340 50  0001 C CNN
+F 3 "~" H 7850 3350 50  0001 C CNN
+F 4 "SMD 10K OHM 1% 1/20W 0201" H 7850 3350 50  0001 C CNN "Description"
+F 5 "RC0201FR-0710KL" H 7850 3350 50  0001 C CNN "MPN"
+F 6 "Yageo" H 7850 3350 50  0001 C CNN "OEM"
+	1    7850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Capacitor C3
+U 1 1 5E0C1B80
+P 8700 3700
+F 0 "C3" H 8815 3746 50  0000 L CNN
+F 1 "47uF" H 8815 3655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 8738 3550 50  0001 C CNN
+F 3 "~" H 8700 3700 50  0001 C CNN
+F 4 "CER 47UF 16V X5R 1210" H 8700 3700 50  0001 C CNN "Description"
+F 5 "GRM32ER61C476KE15L" H 8700 3700 50  0001 C CNN "MPN"
+F 6 "Murata Electronics" H 8700 3700 50  0001 C CNN "OEM"
+	1    8700 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5600 3900
+NoConn ~ 5600 4100
+NoConn ~ 6800 4200
+NoConn ~ 6800 4000
+Wire Wire Line
+	6800 3500 6850 3500
+Wire Wire Line
+	6850 3500 6850 3600
+Wire Wire Line
+	6850 3600 6800 3600
+Wire Wire Line
+	6800 3000 6850 3000
+Wire Wire Line
+	6850 3000 6850 2900
+Wire Wire Line
+	6850 2900 6800 2900
+Wire Wire Line
+	6850 2900 7850 2900
+Wire Wire Line
+	8700 2900 8700 3550
+Connection ~ 6850 2900
+Wire Wire Line
+	8700 2900 8800 2900
+Wire Wire Line
+	8800 2900 8800 2800
+Connection ~ 8700 2900
+$Comp
+L snowflake:+5V #PWR012
+U 1 1 5E0C4164
+P 8800 2800
+F 0 "#PWR012" H 8800 2650 50  0001 C CNN
+F 1 "+5V" H 8815 2973 50  0000 C CNN
+F 2 "" H 8800 2800 50  0001 C CNN
+F 3 "" H 8800 2800 50  0001 C CNN
+	1    8800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3200 5450 3200
+Wire Wire Line
+	5450 3200 5450 3300
+Wire Wire Line
+	5450 3300 5600 3300
+Wire Wire Line
+	5450 3300 5450 3400
+Wire Wire Line
+	5450 3400 5600 3400
+Connection ~ 5450 3300
+Wire Wire Line
+	5450 3400 5450 3500
+Wire Wire Line
+	5450 3500 5600 3500
+Connection ~ 5450 3400
+Wire Wire Line
+	5450 3500 5450 3600
+Wire Wire Line
+	5450 3600 5600 3600
+Connection ~ 5450 3500
+Wire Wire Line
+	5450 3600 5450 3700
+Wire Wire Line
+	5450 3700 5600 3700
+Connection ~ 5450 3600
+Wire Wire Line
+	5250 3700 5250 3750
+Wire Wire Line
+	5250 3700 5450 3700
+Connection ~ 5450 3700
+$Comp
+L snowflake:GND #PWR08
+U 1 1 5E0CDA25
+P 5250 3750
+F 0 "#PWR08" H 5250 3500 50  0001 C CNN
+F 1 "GND" H 5250 3600 50  0001 C CNN
+F 2 "" H 5250 3750 50  0001 C CNN
+F 3 "~" H 5250 3750 50  0001 C CNN
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowflake:GND #PWR010
+U 1 1 5E0CE4E1
+P 7150 3350
+F 0 "#PWR010" H 7150 3100 50  0001 C CNN
+F 1 "GND" H 7150 3200 50  0001 C CNN
+F 2 "" H 7150 3350 50  0001 C CNN
+F 3 "~" H 7150 3350 50  0001 C CNN
+	1    7150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3200 6950 3200
+Wire Wire Line
+	6950 3200 6950 3300
+Wire Wire Line
+	6950 3300 6800 3300
+Wire Wire Line
+	6950 3300 7150 3300
+Wire Wire Line
+	7150 3300 7150 3350
+Connection ~ 6950 3300
+Wire Wire Line
+	5600 4300 5200 4300
+Wire Wire Line
+	5200 4300 5200 4550
+Wire Wire Line
+	5600 4500 5550 4500
+Wire Wire Line
+	5550 4500 5550 4600
+Wire Wire Line
+	5550 4600 5600 4600
+Wire Wire Line
+	5550 4600 5550 5050
+Wire Wire Line
+	5550 5050 5200 5050
+Wire Wire Line
+	5200 5050 5200 4850
+Connection ~ 5550 4600
+Wire Wire Line
+	6800 4600 6850 4600
+Wire Wire Line
+	6850 4600 6850 5050
+Connection ~ 5550 5050
+Wire Wire Line
+	6800 4400 7000 4400
+Wire Wire Line
+	7000 4400 7000 4550
+Wire Wire Line
+	7000 4850 7000 5050
+Wire Wire Line
+	7000 5050 6850 5050
+Connection ~ 6850 5050
+Wire Wire Line
+	6800 3800 7850 3800
+Wire Wire Line
+	7850 3800 7850 4050
+Wire Wire Line
+	7850 3800 7850 3500
+Connection ~ 7850 3800
+Wire Wire Line
+	7850 4350 7850 5050
+Wire Wire Line
+	7850 5050 7000 5050
+Connection ~ 7000 5050
+Wire Wire Line
+	7850 3200 7850 2900
+Connection ~ 7850 2900
+Wire Wire Line
+	7850 2900 8700 2900
+Wire Wire Line
+	6200 5050 5550 5050
+Connection ~ 6200 5050
+Wire Wire Line
+	6850 5050 6200 5050
+$Comp
+L snowflake:AGND #PWR09
+U 1 1 5E0B69FB
+P 6200 5200
+F 0 "#PWR09" H 6200 4950 50  0001 C CNN
+F 1 "AGND" H 6205 5027 50  0000 C CNN
+F 2 "" H 6200 5200 50  0001 C CNN
+F 3 "" H 6200 5200 50  0001 C CNN
+	1    6200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5200 6200 5050
+$Comp
+L snowflake:GND #PWR011
+U 1 1 5E0E7D2F
+P 8700 4200
+F 0 "#PWR011" H 8700 3950 50  0001 C CNN
+F 1 "GND" H 8700 4050 50  0001 C CNN
+F 2 "" H 8700 4200 50  0001 C CNN
+F 3 "~" H 8700 4200 50  0001 C CNN
+	1    8700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3850 8700 4200
+Text GLabel 8700 4050 2    50   Input ~ 0
+GND
+Text GLabel 5250 3700 0    50   Input ~ 0
+GND
+Text GLabel 7150 3300 2    50   Input ~ 0
+GND
+NoConn ~ 3650 3600
+Wire Wire Line
+	2200 4450 2200 3700
+Wire Wire Line
+	2200 3700 2450 3700
+Wire Wire Line
+	2200 4450 4200 4450
+NoConn ~ 2450 3800
+Text Notes 2300 4250 0    50   ~ 0
+Specified as +12V, but anything above\n+5V and below +17V will work. At least\n3A+ (total power is 3.4A, not taking V\ndifferences into consideration).
+Text HLabel 8800 2800 0    50   Input ~ 0
++5V
+Text Label 3800 3050 2    50   ~ 0
++12V
+Text Label 6200 5200 2    50   ~ 0
+AGND
+Text GLabel 8800 2900 2    50   UnSpc ~ 0
++5V
+$EndSCHEMATC

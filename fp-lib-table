@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name snowflake)(type KiCad)(uri ${KIPRJMOD}/libs/snowflake.pretty)(options "")(descr ""))
+)

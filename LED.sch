@@ -1,0 +1,899 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title "Snowflake (Medium)"
+Date "2019-12-25"
+Rev "1.0"
+Comp "RNS Technology"
+Comment1 "Russell E. Gibson"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E08640B
+P 5850 2050
+AR Path="/5E026229/5E08640B" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E08640B" Ref="D1"  Part="1" 
+AR Path="/5E31CB9D/5E08640B" Ref="D13"  Part="1" 
+AR Path="/5E31D1C5/5E08640B" Ref="D25"  Part="1" 
+F 0 "D25" H 5850 2547 50  0000 C CNN
+F 1 "LED_RABG" H 5850 2456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 5850 2000 50  0001 C CNN
+F 3 "~" H 5850 2000 50  0001 C CNN
+	1    5850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E08727A
+P 6850 2050
+AR Path="/5E026229/5E08727A" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E08727A" Ref="D4"  Part="1" 
+AR Path="/5E31CB9D/5E08727A" Ref="D16"  Part="1" 
+AR Path="/5E31D1C5/5E08727A" Ref="D28"  Part="1" 
+F 0 "D28" H 6850 2547 50  0000 C CNN
+F 1 "LED_RABG" H 6850 2456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 6850 2000 50  0001 C CNN
+F 3 "~" H 6850 2000 50  0001 C CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E087ED1
+P 8850 2050
+AR Path="/5E026229/5E087ED1" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E087ED1" Ref="D10"  Part="1" 
+AR Path="/5E31CB9D/5E087ED1" Ref="D22"  Part="1" 
+AR Path="/5E31D1C5/5E087ED1" Ref="D34"  Part="1" 
+F 0 "D34" H 8850 2547 50  0000 C CNN
+F 1 "LED_RABG" H 8850 2456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 8850 2000 50  0001 C CNN
+F 3 "~" H 8850 2000 50  0001 C CNN
+	1    8850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E088FC7
+P 5850 3550
+AR Path="/5E026229/5E088FC7" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E088FC7" Ref="D2"  Part="1" 
+AR Path="/5E31CB9D/5E088FC7" Ref="D14"  Part="1" 
+AR Path="/5E31D1C5/5E088FC7" Ref="D26"  Part="1" 
+F 0 "D26" H 5850 4047 50  0000 C CNN
+F 1 "LED_RABG" H 5850 3956 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 5850 3500 50  0001 C CNN
+F 3 "~" H 5850 3500 50  0001 C CNN
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E089667
+P 6850 3550
+AR Path="/5E026229/5E089667" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E089667" Ref="D5"  Part="1" 
+AR Path="/5E31CB9D/5E089667" Ref="D17"  Part="1" 
+AR Path="/5E31D1C5/5E089667" Ref="D29"  Part="1" 
+F 0 "D29" H 6850 4047 50  0000 C CNN
+F 1 "LED_RABG" H 6850 3956 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 6850 3500 50  0001 C CNN
+F 3 "~" H 6850 3500 50  0001 C CNN
+	1    6850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E089CB1
+P 7850 3550
+AR Path="/5E026229/5E089CB1" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E089CB1" Ref="D8"  Part="1" 
+AR Path="/5E31CB9D/5E089CB1" Ref="D20"  Part="1" 
+AR Path="/5E31D1C5/5E089CB1" Ref="D32"  Part="1" 
+F 0 "D32" H 7850 4047 50  0000 C CNN
+F 1 "LED_RABG" H 7850 3956 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 7850 3500 50  0001 C CNN
+F 3 "~" H 7850 3500 50  0001 C CNN
+	1    7850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E08AAED
+P 8850 3550
+AR Path="/5E026229/5E08AAED" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E08AAED" Ref="D11"  Part="1" 
+AR Path="/5E31CB9D/5E08AAED" Ref="D23"  Part="1" 
+AR Path="/5E31D1C5/5E08AAED" Ref="D35"  Part="1" 
+F 0 "D35" H 8850 4047 50  0000 C CNN
+F 1 "LED_RABG" H 8850 3956 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 8850 3500 50  0001 C CNN
+F 3 "~" H 8850 3500 50  0001 C CNN
+	1    8850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E08B02B
+P 5850 5050
+AR Path="/5E026229/5E08B02B" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E08B02B" Ref="D3"  Part="1" 
+AR Path="/5E31CB9D/5E08B02B" Ref="D15"  Part="1" 
+AR Path="/5E31D1C5/5E08B02B" Ref="D27"  Part="1" 
+F 0 "D27" H 5850 5547 50  0000 C CNN
+F 1 "LED_RABG" H 5850 5456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 5850 5000 50  0001 C CNN
+F 3 "~" H 5850 5000 50  0001 C CNN
+	1    5850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E08B6CB
+P 6850 5050
+AR Path="/5E026229/5E08B6CB" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E08B6CB" Ref="D6"  Part="1" 
+AR Path="/5E31CB9D/5E08B6CB" Ref="D18"  Part="1" 
+AR Path="/5E31D1C5/5E08B6CB" Ref="D30"  Part="1" 
+F 0 "D30" H 6850 5547 50  0000 C CNN
+F 1 "LED_RABG" H 6850 5456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 6850 5000 50  0001 C CNN
+F 3 "~" H 6850 5000 50  0001 C CNN
+	1    6850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E08BFB6
+P 7850 5050
+AR Path="/5E026229/5E08BFB6" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E08BFB6" Ref="D9"  Part="1" 
+AR Path="/5E31CB9D/5E08BFB6" Ref="D21"  Part="1" 
+AR Path="/5E31D1C5/5E08BFB6" Ref="D33"  Part="1" 
+F 0 "D33" H 7850 5547 50  0000 C CNN
+F 1 "LED_RABG" H 7850 5456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 7850 5000 50  0001 C CNN
+F 3 "~" H 7850 5000 50  0001 C CNN
+	1    7850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E08C7A4
+P 8850 5050
+AR Path="/5E026229/5E08C7A4" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E08C7A4" Ref="D12"  Part="1" 
+AR Path="/5E31CB9D/5E08C7A4" Ref="D24"  Part="1" 
+AR Path="/5E31D1C5/5E08C7A4" Ref="D36"  Part="1" 
+F 0 "D36" H 8850 5547 50  0000 C CNN
+F 1 "LED_RABG" H 8850 5456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 8850 5000 50  0001 C CNN
+F 3 "~" H 8850 5000 50  0001 C CNN
+	1    8850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Capacitor-Polarized C?
+U 1 1 5E099603
+P 3400 6150
+AR Path="/5E026229/5E099603" Ref="C?"  Part="1" 
+AR Path="/5E31C594/5E099603" Ref="C8"  Part="1" 
+AR Path="/5E31CB9D/5E099603" Ref="C13"  Part="1" 
+AR Path="/5E31D1C5/5E099603" Ref="C18"  Part="1" 
+F 0 "C18" H 3515 6196 50  0000 L CNN
+F 1 "10uF" H 3515 6105 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_3x5.3" H 3400 6150 50  0001 C CNN
+F 3 "~" H 3400 6150 50  0001 C CNN
+F 4 "ALUM 10UF 20% 16V SMD" H 3400 6150 50  0001 C CNN "Description"
+F 5 "UWT1C100MCL2GB" H 3400 6150 50  0001 C CNN "MPN"
+F 6 "Nichicon" H 3400 6150 50  0001 C CNN "OEM"
+	1    3400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Capacitor-Polarized C?
+U 1 1 5E09A560
+P 3000 6150
+AR Path="/5E026229/5E09A560" Ref="C?"  Part="1" 
+AR Path="/5E31C594/5E09A560" Ref="C7"  Part="1" 
+AR Path="/5E31CB9D/5E09A560" Ref="C12"  Part="1" 
+AR Path="/5E31D1C5/5E09A560" Ref="C17"  Part="1" 
+F 0 "C17" H 3115 6196 50  0000 L CNN
+F 1 "10uF" H 3115 6105 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_3x5.3" H 3000 6150 50  0001 C CNN
+F 3 "~" H 3000 6150 50  0001 C CNN
+F 4 "ALUM 10UF 20% 16V SMD" H 3000 6150 50  0001 C CNN "Description"
+F 5 "UWT1C100MCL2GB" H 3000 6150 50  0001 C CNN "MPN"
+F 6 "Nichicon" H 3000 6150 50  0001 C CNN "OEM"
+	1    3000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Capacitor C?
+U 1 1 5E09A816
+P 3850 6150
+AR Path="/5E026229/5E09A816" Ref="C?"  Part="1" 
+AR Path="/5E31C594/5E09A816" Ref="C10"  Part="1" 
+AR Path="/5E31CB9D/5E09A816" Ref="C15"  Part="1" 
+AR Path="/5E31D1C5/5E09A816" Ref="C20"  Part="1" 
+F 0 "C20" H 3965 6196 50  0000 L CNN
+F 1 "1uF" H 3965 6105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3888 6000 50  0001 C CNN
+F 3 "~" H 3850 6150 50  0001 C CNN
+F 4 "CER 1UF 10V X5R 0603" H 3850 6150 50  0001 C CNN "Description"
+F 5 "C0603C105K8PACTU" H 3850 6150 50  0001 C CNN "MPN"
+F 6 "Kemet" H 3850 6150 50  0001 C CNN "OEM"
+	1    3850 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Capacitor C?
+U 1 1 5E09B21A
+P 2100 6150
+AR Path="/5E026229/5E09B21A" Ref="C?"  Part="1" 
+AR Path="/5E31C594/5E09B21A" Ref="C6"  Part="1" 
+AR Path="/5E31CB9D/5E09B21A" Ref="C11"  Part="1" 
+AR Path="/5E31D1C5/5E09B21A" Ref="C16"  Part="1" 
+F 0 "C16" H 2215 6196 50  0000 L CNN
+F 1 "1uF" H 2215 6105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2138 6000 50  0001 C CNN
+F 3 "~" H 2100 6150 50  0001 C CNN
+F 4 "CER 1UF 10V X5R 0603" H 2100 6150 50  0001 C CNN "Description"
+F 5 "C0603C105K8PACTU" H 2100 6150 50  0001 C CNN "MPN"
+F 6 "Kemet" H 2100 6150 50  0001 C CNN "OEM"
+	1    2100 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L common:Resister R?
+U 1 1 5E09B5ED
+P 2500 6150
+AR Path="/5E026229/5E09B5ED" Ref="R?"  Part="1" 
+AR Path="/5E31C594/5E09B5ED" Ref="R5"  Part="1" 
+AR Path="/5E31CB9D/5E09B5ED" Ref="R6"  Part="1" 
+AR Path="/5E31D1C5/5E09B5ED" Ref="R7"  Part="1" 
+F 0 "R7" H 2568 6196 50  0000 L CNN
+F 1 "3.65K" H 2568 6105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2540 6140 50  0001 C CNN
+F 3 "~" H 2500 6150 50  0001 C CNN
+F 4 "SMD 3.65KOHM 0.1% 1/16W 0402" H 2500 6150 50  0001 C CNN "Description"
+F 5 "RT0402BRD073K65L" H 2500 6150 50  0001 C CNN "MPN"
+F 6 "Yageo" H 2500 6150 50  0001 C CNN "OEM"
+	1    2500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowflake:+5V #PWR?
+U 1 1 5E0A9ED4
+P 3400 1300
+AR Path="/5E026229/5E0A9ED4" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0A9ED4" Ref="#PWR022"  Part="1" 
+AR Path="/5E31CB9D/5E0A9ED4" Ref="#PWR031"  Part="1" 
+AR Path="/5E31D1C5/5E0A9ED4" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 3400 1150 50  0001 C CNN
+F 1 "+5V" H 3415 1473 50  0000 C CNN
+F 2 "" H 3400 1300 50  0001 C CNN
+F 3 "" H 3400 1300 50  0001 C CNN
+	1    3400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowflake:GND #PWR?
+U 1 1 5E0AAA1E
+P 2100 6650
+AR Path="/5E026229/5E0AAA1E" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0AAA1E" Ref="#PWR018"  Part="1" 
+AR Path="/5E31CB9D/5E0AAA1E" Ref="#PWR027"  Part="1" 
+AR Path="/5E31D1C5/5E0AAA1E" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 2100 6400 50  0001 C CNN
+F 1 "GND" H 2100 6500 50  0001 C CNN
+F 2 "" H 2100 6650 50  0001 C CNN
+F 3 "~" H 2100 6650 50  0001 C CNN
+	1    2100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1650 3400 1300
+$Comp
+L snowflake:GND #PWR?
+U 1 1 5E0BA2DE
+P 2500 6650
+AR Path="/5E026229/5E0BA2DE" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0BA2DE" Ref="#PWR019"  Part="1" 
+AR Path="/5E31CB9D/5E0BA2DE" Ref="#PWR028"  Part="1" 
+AR Path="/5E31D1C5/5E0BA2DE" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 2500 6400 50  0001 C CNN
+F 1 "GND" H 2500 6500 50  0001 C CNN
+F 2 "" H 2500 6650 50  0001 C CNN
+F 3 "~" H 2500 6650 50  0001 C CNN
+	1    2500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowflake:GND #PWR?
+U 1 1 5E0BA65D
+P 3000 6650
+AR Path="/5E026229/5E0BA65D" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0BA65D" Ref="#PWR021"  Part="1" 
+AR Path="/5E31CB9D/5E0BA65D" Ref="#PWR030"  Part="1" 
+AR Path="/5E31D1C5/5E0BA65D" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 3000 6400 50  0001 C CNN
+F 1 "GND" H 3000 6500 50  0001 C CNN
+F 2 "" H 3000 6650 50  0001 C CNN
+F 3 "~" H 3000 6650 50  0001 C CNN
+	1    3000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowflake:GND #PWR?
+U 1 1 5E0BA8DD
+P 3400 6650
+AR Path="/5E026229/5E0BA8DD" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0BA8DD" Ref="#PWR023"  Part="1" 
+AR Path="/5E31CB9D/5E0BA8DD" Ref="#PWR032"  Part="1" 
+AR Path="/5E31D1C5/5E0BA8DD" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 3400 6400 50  0001 C CNN
+F 1 "GND" H 3400 6500 50  0001 C CNN
+F 2 "" H 3400 6650 50  0001 C CNN
+F 3 "~" H 3400 6650 50  0001 C CNN
+	1    3400 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5350 2500 5350
+Wire Wire Line
+	2500 5350 2500 6000
+Wire Wire Line
+	2500 6300 2500 6650
+Wire Wire Line
+	2100 6650 2100 6300
+Wire Wire Line
+	2100 6000 2100 5250
+Wire Wire Line
+	2100 5250 2900 5250
+Wire Wire Line
+	3000 6300 3000 6350
+Wire Wire Line
+	3400 6300 3400 6350
+$Comp
+L snowflake:GND #PWR?
+U 1 1 5E0C03F9
+P 3850 6650
+AR Path="/5E026229/5E0C03F9" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0C03F9" Ref="#PWR025"  Part="1" 
+AR Path="/5E31CB9D/5E0C03F9" Ref="#PWR034"  Part="1" 
+AR Path="/5E31D1C5/5E0C03F9" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 3850 6400 50  0001 C CNN
+F 1 "GND" H 3850 6500 50  0001 C CNN
+F 2 "" H 3850 6650 50  0001 C CNN
+F 3 "~" H 3850 6650 50  0001 C CNN
+	1    3850 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6300 3850 6650
+Wire Wire Line
+	3300 5550 3300 6350
+Wire Wire Line
+	3300 6350 3000 6350
+Connection ~ 3000 6350
+Wire Wire Line
+	3000 6350 3000 6650
+Wire Wire Line
+	3400 5550 3400 5800
+Wire Wire Line
+	3400 5800 3700 5800
+Wire Wire Line
+	3700 5800 3700 6350
+Wire Wire Line
+	3700 6350 3400 6350
+Connection ~ 3400 6350
+Wire Wire Line
+	3400 6350 3400 6650
+Wire Wire Line
+	3000 6000 3000 5900
+Wire Wire Line
+	3000 5900 3400 5900
+Wire Wire Line
+	3850 6000 3850 5900
+Wire Wire Line
+	3400 6000 3400 5900
+Connection ~ 3400 5900
+$Comp
+L snowflake:+5V #PWR?
+U 1 1 5E0B3D24
+P 2850 5700
+AR Path="/5E026229/5E0B3D24" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0B3D24" Ref="#PWR020"  Part="1" 
+AR Path="/5E31CB9D/5E0B3D24" Ref="#PWR029"  Part="1" 
+AR Path="/5E31D1C5/5E0B3D24" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 2850 5550 50  0001 C CNN
+F 1 "+5V" H 2865 5873 50  0000 C CNN
+F 2 "" H 2850 5700 50  0001 C CNN
+F 3 "" H 2850 5700 50  0001 C CNN
+	1    2850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L snowflake:+5V #PWR?
+U 1 1 5E0EC4C8
+P 7250 1200
+AR Path="/5E026229/5E0EC4C8" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E0EC4C8" Ref="#PWR026"  Part="1" 
+AR Path="/5E31CB9D/5E0EC4C8" Ref="#PWR035"  Part="1" 
+AR Path="/5E31D1C5/5E0EC4C8" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 7250 1050 50  0001 C CNN
+F 1 "+5V" H 7265 1373 50  0000 C CNN
+F 2 "" H 7250 1200 50  0001 C CNN
+F 3 "" H 7250 1200 50  0001 C CNN
+	1    7250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RABG D?
+U 1 1 5E087929
+P 7850 2050
+AR Path="/5E026229/5E087929" Ref="D?"  Part="1" 
+AR Path="/5E31C594/5E087929" Ref="D7"  Part="1" 
+AR Path="/5E31CB9D/5E087929" Ref="D19"  Part="1" 
+AR Path="/5E31D1C5/5E087929" Ref="D31"  Part="1" 
+F 0 "D31" H 7850 2547 50  0000 C CNN
+F 1 "LED_RABG" H 7850 2456 50  0000 C CNN
+F 2 "snowflake:LED-RGB-RABG-Via's" H 7850 2000 50  0001 C CNN
+F 3 "~" H 7850 2000 50  0001 C CNN
+	1    7850 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 6550 0    50   Input ~ 0
+GND
+$Comp
+L snowflake:LP5036 U?
+U 1 1 5E07EED8
+P 3400 3650
+AR Path="/5E026229/5E07EED8" Ref="U?"  Part="1" 
+AR Path="/5E31C594/5E07EED8" Ref="U3"  Part="1" 
+AR Path="/5E31CB9D/5E07EED8" Ref="U4"  Part="1" 
+AR Path="/5E31D1C5/5E07EED8" Ref="U5"  Part="1" 
+F 0 "U5" H 3050 5600 50  0000 C CNN
+F 1 "LP5036" H 3250 3650 50  0000 C CNN
+F 2 "snowflake:VQFN-46-1EP_5x6mm_P0.4mm_EP2.8x3.8mm_ThermalVias_LEDVias" H 3400 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp5036.pdf" H 3400 3700 50  0001 C CNN
+F 4 "LED RGB Driver IC 12 (36) Output Linear Dimming" H 3400 3650 50  0001 C CNN "Description"
+F 5 "LP5036RJVR" H 3400 3650 50  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 3400 3650 50  0001 C CNN "OEM"
+	1    3400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1850 5650 1850
+Wire Wire Line
+	3900 1950 5650 1950
+Wire Wire Line
+	5650 1950 5650 2050
+Wire Wire Line
+	3900 2050 5600 2050
+Wire Wire Line
+	5600 2050 5600 2250
+Wire Wire Line
+	5600 2250 5650 2250
+Wire Wire Line
+	3900 2150 5550 2150
+Wire Wire Line
+	5550 2150 5550 2400
+Wire Wire Line
+	5550 2400 6500 2400
+Wire Wire Line
+	6500 2400 6500 1850
+Wire Wire Line
+	6500 1850 6650 1850
+Wire Wire Line
+	3900 2250 5500 2250
+Wire Wire Line
+	5500 2250 5500 2450
+Wire Wire Line
+	5500 2450 6550 2450
+Wire Wire Line
+	6550 2450 6550 2050
+Wire Wire Line
+	6550 2050 6650 2050
+Wire Wire Line
+	3900 2350 5450 2350
+Wire Wire Line
+	5450 2350 5450 2500
+Wire Wire Line
+	5450 2500 6600 2500
+Wire Wire Line
+	6600 2500 6600 2250
+Wire Wire Line
+	6600 2250 6650 2250
+Wire Wire Line
+	3900 2450 5400 2450
+Wire Wire Line
+	5400 2450 5400 2550
+Wire Wire Line
+	5400 2550 7450 2550
+Wire Wire Line
+	7450 2550 7450 1850
+Wire Wire Line
+	7450 1850 7650 1850
+Wire Wire Line
+	3900 2550 5350 2550
+Wire Wire Line
+	5350 2550 5350 2600
+Wire Wire Line
+	5350 2600 7500 2600
+Wire Wire Line
+	7500 2600 7500 2050
+Wire Wire Line
+	7500 2050 7650 2050
+Wire Wire Line
+	3900 2650 7650 2650
+Wire Wire Line
+	7650 2650 7650 2250
+Wire Wire Line
+	3900 2750 4050 2750
+Wire Wire Line
+	4050 2750 4050 2700
+Wire Wire Line
+	4050 2700 8450 2700
+Wire Wire Line
+	8450 2700 8450 1850
+Wire Wire Line
+	8450 1850 8650 1850
+Wire Wire Line
+	3900 2850 4100 2850
+Wire Wire Line
+	4100 2850 4100 2750
+Wire Wire Line
+	4100 2750 8500 2750
+Wire Wire Line
+	8500 2750 8500 2050
+Wire Wire Line
+	8500 2050 8650 2050
+Wire Wire Line
+	3900 2950 4150 2950
+Wire Wire Line
+	4150 2950 4150 2800
+Wire Wire Line
+	4150 2800 8550 2800
+Wire Wire Line
+	8550 2800 8550 2250
+Wire Wire Line
+	8550 2250 8650 2250
+Wire Wire Line
+	3900 3050 5600 3050
+Wire Wire Line
+	5600 3050 5600 3350
+Wire Wire Line
+	5600 3350 5650 3350
+Wire Wire Line
+	3900 3150 5550 3150
+Wire Wire Line
+	5550 3150 5550 3550
+Wire Wire Line
+	5550 3550 5650 3550
+Wire Wire Line
+	3900 3250 5500 3250
+Wire Wire Line
+	5500 3250 5500 3750
+Wire Wire Line
+	5500 3750 5650 3750
+Wire Wire Line
+	3900 3350 5450 3350
+Wire Wire Line
+	5450 3350 5450 3900
+Wire Wire Line
+	5450 3900 6450 3900
+Wire Wire Line
+	6450 3900 6450 3350
+Wire Wire Line
+	6450 3350 6650 3350
+Wire Wire Line
+	3900 3450 5400 3450
+Wire Wire Line
+	5400 3450 5400 3950
+Wire Wire Line
+	5400 3950 6500 3950
+Wire Wire Line
+	6500 3950 6500 3550
+Wire Wire Line
+	6500 3550 6650 3550
+Wire Wire Line
+	5350 3550 5350 4000
+Wire Wire Line
+	5350 4000 6550 4000
+Wire Wire Line
+	6550 4000 6550 3750
+Wire Wire Line
+	6550 3750 6650 3750
+Wire Wire Line
+	3900 3550 5350 3550
+Wire Wire Line
+	3900 3650 5300 3650
+Wire Wire Line
+	5300 3650 5300 4050
+Wire Wire Line
+	5300 4050 7400 4050
+Wire Wire Line
+	7400 4050 7400 3350
+Wire Wire Line
+	7400 3350 7650 3350
+Wire Wire Line
+	3900 3750 5250 3750
+Wire Wire Line
+	5250 3750 5250 4100
+Wire Wire Line
+	5250 4100 7450 4100
+Wire Wire Line
+	7450 4100 7450 3550
+Wire Wire Line
+	7450 3550 7650 3550
+Wire Wire Line
+	3900 3850 5200 3850
+Wire Wire Line
+	5200 3850 5200 4150
+Wire Wire Line
+	5200 4150 7500 4150
+Wire Wire Line
+	7500 4150 7500 3750
+Wire Wire Line
+	7500 3750 7650 3750
+Wire Wire Line
+	3900 3950 5150 3950
+Wire Wire Line
+	5150 3950 5150 4200
+Wire Wire Line
+	5150 4200 8400 4200
+Wire Wire Line
+	8400 4200 8400 3350
+Wire Wire Line
+	8400 3350 8650 3350
+Wire Wire Line
+	3900 4050 5100 4050
+Wire Wire Line
+	5100 4050 5100 4250
+Wire Wire Line
+	5100 4250 8450 4250
+Wire Wire Line
+	8450 4250 8450 3550
+Wire Wire Line
+	8450 3550 8650 3550
+Wire Wire Line
+	3900 4150 5050 4150
+Wire Wire Line
+	5050 4150 5050 4300
+Wire Wire Line
+	5050 4300 8500 4300
+Wire Wire Line
+	8500 4300 8500 3750
+Wire Wire Line
+	8500 3750 8650 3750
+Wire Wire Line
+	7250 1200 7250 1350
+Wire Wire Line
+	7250 1350 6250 1350
+Wire Wire Line
+	6250 1350 6250 2050
+Wire Wire Line
+	6250 2050 6050 2050
+Wire Wire Line
+	7050 2050 7250 2050
+Wire Wire Line
+	7250 2050 7250 1350
+Connection ~ 7250 1350
+Wire Wire Line
+	8050 2050 8250 2050
+Wire Wire Line
+	8250 2050 8250 1350
+Wire Wire Line
+	8250 1350 7250 1350
+Wire Wire Line
+	9050 2050 9250 2050
+Wire Wire Line
+	9250 2050 9250 1350
+Wire Wire Line
+	9250 1350 8250 1350
+Connection ~ 8250 1350
+Wire Wire Line
+	8050 3550 8250 3550
+Wire Wire Line
+	8250 3550 8250 2050
+Connection ~ 8250 2050
+Wire Wire Line
+	9050 3550 9250 3550
+Wire Wire Line
+	9250 3550 9250 2050
+Connection ~ 9250 2050
+Wire Wire Line
+	7050 3550 7250 3550
+Wire Wire Line
+	7250 3550 7250 2050
+Connection ~ 7250 2050
+Wire Wire Line
+	6050 3550 6250 3550
+Wire Wire Line
+	6250 3550 6250 2050
+Connection ~ 6250 2050
+Wire Wire Line
+	6050 5050 6250 5050
+Wire Wire Line
+	6250 5050 6250 3550
+Connection ~ 6250 3550
+Wire Wire Line
+	7050 5050 7250 5050
+Wire Wire Line
+	7250 5050 7250 3550
+Connection ~ 7250 3550
+Wire Wire Line
+	8050 5050 8250 5050
+Wire Wire Line
+	8250 5050 8250 3550
+Connection ~ 8250 3550
+Wire Wire Line
+	9050 5050 9250 5050
+Wire Wire Line
+	9250 5050 9250 3550
+Connection ~ 9250 3550
+Wire Wire Line
+	3900 4250 5000 4250
+Wire Wire Line
+	5000 4250 5000 4850
+Wire Wire Line
+	5000 4850 5650 4850
+Wire Wire Line
+	3900 4350 4950 4350
+Wire Wire Line
+	4950 5050 5650 5050
+Wire Wire Line
+	4950 4350 4950 5050
+Wire Wire Line
+	3900 4450 4900 4450
+Wire Wire Line
+	4900 4450 4900 5250
+Wire Wire Line
+	4900 5250 5650 5250
+Wire Wire Line
+	3900 4550 4850 4550
+Wire Wire Line
+	4850 4550 4850 5400
+Wire Wire Line
+	4850 5400 6400 5400
+Wire Wire Line
+	6400 5400 6400 4850
+Wire Wire Line
+	6400 4850 6650 4850
+Wire Wire Line
+	3900 4650 4800 4650
+Wire Wire Line
+	4800 4650 4800 5450
+Wire Wire Line
+	4800 5450 6450 5450
+Wire Wire Line
+	6450 5450 6450 5050
+Wire Wire Line
+	6450 5050 6650 5050
+Wire Wire Line
+	3900 4750 4750 4750
+Wire Wire Line
+	4750 4750 4750 5500
+Wire Wire Line
+	4750 5500 6500 5500
+Wire Wire Line
+	6500 5500 6500 5250
+Wire Wire Line
+	6500 5250 6650 5250
+Wire Wire Line
+	3900 4850 4700 4850
+Wire Wire Line
+	4700 4850 4700 5550
+Wire Wire Line
+	4700 5550 7400 5550
+Wire Wire Line
+	7400 5550 7400 4850
+Wire Wire Line
+	7400 4850 7650 4850
+Wire Wire Line
+	3900 4950 4650 4950
+Wire Wire Line
+	4650 4950 4650 5600
+Wire Wire Line
+	4650 5600 7450 5600
+Wire Wire Line
+	7450 5600 7450 5050
+Wire Wire Line
+	7450 5050 7650 5050
+Wire Wire Line
+	3900 5050 4600 5050
+Wire Wire Line
+	4600 5050 4600 5650
+Wire Wire Line
+	4600 5650 7500 5650
+Wire Wire Line
+	7500 5650 7500 5250
+Wire Wire Line
+	7500 5250 7650 5250
+Wire Wire Line
+	2850 5700 2850 5900
+Wire Wire Line
+	2850 5900 3000 5900
+Connection ~ 3000 5900
+Wire Wire Line
+	3900 5150 4550 5150
+Wire Wire Line
+	4550 5150 4550 5700
+Wire Wire Line
+	4550 5700 8400 5700
+Wire Wire Line
+	8400 5700 8400 4850
+Wire Wire Line
+	8400 4850 8650 4850
+Wire Wire Line
+	3900 5250 4500 5250
+Wire Wire Line
+	4500 5250 4500 5750
+Wire Wire Line
+	4500 5750 8450 5750
+Wire Wire Line
+	8450 5750 8450 5050
+Wire Wire Line
+	8450 5050 8650 5050
+Wire Wire Line
+	3900 5350 4450 5350
+Wire Wire Line
+	4450 5350 4450 5800
+Wire Wire Line
+	4450 5800 8500 5800
+Wire Wire Line
+	8500 5800 8500 5250
+Wire Wire Line
+	8500 5250 8650 5250
+Text HLabel 2900 1850 0    50   Input ~ 0
+SEN
+Text HLabel 2900 1950 0    50   Input ~ 0
+SCL
+Text HLabel 2900 2050 0    50   BiDi ~ 0
+SDA
+Text HLabel 3400 1350 0    50   UnSpc ~ 0
++5V
+Text GLabel 7250 1250 0    50   Input ~ 0
++5V
+Text HLabel 2900 2150 0    50   UnSpc ~ 0
+SADDR0
+Text HLabel 2900 2250 0    50   UnSpc ~ 0
+SADDR1
+Text GLabel 2500 6550 0    50   Input ~ 0
+GND
+Text GLabel 3000 6550 0    50   Input ~ 0
+GND
+Text GLabel 3400 6550 0    50   Input ~ 0
+GND
+Text GLabel 3850 6550 0    50   Input ~ 0
+GND
+Text GLabel 2850 5800 0    50   Input ~ 0
++5V
+Wire Wire Line
+	3400 5900 3850 5900
+$Comp
+L snowflake:GND #PWR?
+U 1 1 5E3CE55D
+P 3500 5650
+AR Path="/5E026229/5E3CE55D" Ref="#PWR?"  Part="1" 
+AR Path="/5E31C594/5E3CE55D" Ref="#PWR0102"  Part="1" 
+AR Path="/5E31CB9D/5E3CE55D" Ref="#PWR0103"  Part="1" 
+AR Path="/5E31D1C5/5E3CE55D" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 3500 5400 50  0001 C CNN
+F 1 "GND" H 3500 5500 50  0001 C CNN
+F 2 "" H 3500 5650 50  0001 C CNN
+F 3 "~" H 3500 5650 50  0001 C CNN
+	1    3500 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5550 3500 5650
+$EndSCHEMATC
