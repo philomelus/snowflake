@@ -1,6 +1,6 @@
 gerber/
 gerberx2/
 *-cache.*
-*.zip
 *bak
 fw/
+fp-info-cache
