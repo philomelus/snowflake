@@ -5,3 +5,6 @@ gerberx2/
 fw/
 fp-info-cache
 snowflake.xml
+*bom*pdf
+*bom*xlsx
+
