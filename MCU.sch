@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 5
 Title "Snowflake (Medium)"
 Date "2019-12-25"
 Rev "1.0"

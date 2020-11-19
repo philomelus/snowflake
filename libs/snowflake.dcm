@@ -146,6 +146,12 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP IS31FL3741-QF
+D 39x9 LED / 13x9 RGB matrix driver with, QFN-60
+K led matrix pwm
+F http://www.issi.com/WW/pdf/IS31FL3733.pdf
+$ENDCMP
+#
 $CMP LP5036
 D 36-Channel 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Driver
 K PWM LED driver I2C

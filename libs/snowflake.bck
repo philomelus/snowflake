@@ -146,6 +146,12 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP IS31FL3741-QF
+D 12x16 LED matrix driver with 8-bit PWM and breathing, QFN-48
+K led matrix pwm
+F http://www.issi.com/WW/pdf/IS31FL3733.pdf
+$ENDCMP
+#
 $CMP LP5036
 D 36-Channel 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Driver
 K PWM LED driver I2C
@@ -184,6 +190,12 @@ $CMP SRP1270-8R2M
 D 8.2UH 11A 15.5 MOHM
 K inductor choke coil reactor magnetic
 F ~
+$ENDCMP
+#
+$CMP STM32F413CHUx
+D ARM Cortex-M4 MCU, 1536KB flash, 320KB RAM, 100MHz, 1.7-3.6V, 36 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32F4 STM32F413/423
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf
 $ENDCMP
 #
 $CMP STM32F423CHUx
